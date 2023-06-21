@@ -114,3 +114,7 @@ def update_prof(request, id):
             messages.success(request, "Profile details Updated.")
             return redirect('first')
     return render(request, 'first/update_prof.html', locals())
+
+
+def New_func (request):
+    pass
